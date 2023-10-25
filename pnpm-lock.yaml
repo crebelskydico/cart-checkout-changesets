@@ -127,6 +127,9 @@ importers:
       typescript:
         specifier: ^4.5.2
         version: registry.npmjs.org/typescript@4.9.5
+      vitest:
+        specifier: ^0.34.6
+        version: registry.npmjs.org/vitest@0.34.6
 
   packages/tsconfig: {}
 

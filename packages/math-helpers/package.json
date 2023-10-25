@@ -4,11 +4,14 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "scripts": {
-        "build": "tsup src/index.ts --format cjs,esm --dts"
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "test": "vitest run",
+        "test:watch": "vitest"
     },
     "devDependencies": {
         "tsconfig": "workspace:*",
         "tsup": "^7.2.0",
-        "typescript": "^4.5.2"
+        "typescript": "^4.5.2",
+        "vitest": "^0.34.6"
     }
 }
