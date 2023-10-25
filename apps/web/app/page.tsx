@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Card } from "ui";
-// eslint-disable-next-line import/no-extraneous-dependencies -- This is a component
+import { Card, Link } from "ui";
 import { add } from "math-helpers";
 import styles from "./page.module.css";
 
@@ -62,6 +61,9 @@ export default function Page(): JSX.Element {
           examples/basic&nbsp;
           <code className={styles.code}>web</code>
         </p>
+        <Link>
+          <h1>Test</h1>
+        </Link>
         <div>
           <a
             href="https://vercel.com?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo"
